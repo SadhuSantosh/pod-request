@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+body{
+    width: 100%;
+    height:100vh;
+    margin:0px;
+    background-color: hsl(222deg 37% 11%);
+}
+section{
+    width: 100%;
+    height:100%;
+    margin:0px;
+    font-family: 'Chivo', sans-serif;
+    background:url('https://i.pinimg.com/236x/3b/cb/63/3bcb63f6478d9c6a4723195a2f744a32.jpg') no-repeat , hsl(0deg 0% 0% / 60%) ;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+    
+}.main{
+    font-family: 'Chivo', sans-serif;
+    padding: 30px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pod{
+    font-family: 'Chivo', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+
+}
+.spo{
+    margin-top: 30px;
+    color:rgb(83 230 175);
+    margin-right: 10px;
+}
+.para1{
+    color: rgb(83 230 175);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+}
+.para2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+
+}
+p{
+    text-align: center;
+}
+.para{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+input,button{
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 0px;
+}
+input{
+    margin-top: 50px;
+    background-color: gray;
+    color: white;
+}
+button{
+    
+    background-color: rgb(83 230 175) ;
+    color: black;
+    font-weight:bold;
+    border-radius: 20px;
+}
+::placeholder{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
+}
+.bottom{
+    
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+
+}
+@media only screen and (min-width: 400px ) {
+ .main{
+     margin-top:100px;
+     background-color:hsl(222deg 37% 11%);
+     width: 70%;
+     height :100%;
+ }
+  .pod{
+      text-align: left;
+      margin-left:20px ;
+  }
+  section{
+      background-position-x: right;
+      background-size:300px ;
+     
+      
+  }
+  
+  input,button{
+      padding:10px 20px;
+      
+  }
+
+    
+}
+
+@media only screen and (min-width: 600px ){
+    body{
+        display:flex;
+        background-color: hsl(222deg 37% 11%)
+
+    }
+    section{
+       margin:auto;
+    }
+}
